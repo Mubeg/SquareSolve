@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Square Solver: Файл SquareSolve.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Square Solver
+   </div>
+   <div id="projectbrief">Программа решает квадратные уравнения с данными пользователя</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Макросы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл SquareSolve.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Главный файл программы  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="SquareSolve_8h_source.html">SquareSolve.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для SquareSolve.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="SquareSolve_8c__incl.png" border="0" usemap="#SquareSolve_8c" alt=""/></div>
+<map name="SquareSolve_8c" id="SquareSolve_8c">
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a7c84d86d1c3f75f8c76e86e316ac94e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SquareSolve_8c.html#a7c84d86d1c3f75f8c76e86e316ac94e8">compare_str</a> (char *str1, char *str2)</td></tr>
+<tr class="separator:a7c84d86d1c3f75f8c76e86e316ac94e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6ed9e5f62ea4868c68580aee0a4106"><td class="memItemLeft" align="right" valign="top"><a id="a8e6ed9e5f62ea4868c68580aee0a4106"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>is_equal</b> (double first, double second)</td></tr>
+<tr class="separator:a8e6ed9e5f62ea4868c68580aee0a4106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d929239618e5712a4dfd6ccf3a2ef8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SquareSolve_8c.html#ae0d929239618e5712a4dfd6ccf3a2ef8">solveLinear</a> (double a, double b, double *x)</td></tr>
+<tr class="separator:ae0d929239618e5712a4dfd6ccf3a2ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32213261c1ffacc09468324a3aa2f1de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SquareSolve_8c.html#a32213261c1ffacc09468324a3aa2f1de">solveSquare</a> (double a, double b, double c, double *x1, double *x2)</td></tr>
+<tr class="separator:a32213261c1ffacc09468324a3aa2f1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76aa5b4405ab25b226de694796784b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SquareSolve_8c.html#ac76aa5b4405ab25b226de694796784b9">checkSquareRoot</a> (double a, double b, double c, double x)</td></tr>
+<tr class="separator:ac76aa5b4405ab25b226de694796784b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283c116a6d4f7f04bd4a90f109aa5432"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SquareSolve_8c.html#a283c116a6d4f7f04bd4a90f109aa5432">testSquare</a> (void)</td></tr>
+<tr class="separator:a283c116a6d4f7f04bd4a90f109aa5432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Главный файл программы </p>
+<p>Данный файл содержит функции обработки, тестирования и управления программой </p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="ac76aa5b4405ab25b226de694796784b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac76aa5b4405ab25b226de694796784b9">&#9670;&nbsp;</a></span>checkSquareRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int checkSquareRoot </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Проверяет решение квадратного уравнения вида ax^2 + bx + c = 0 методом подстановки </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a,b,c</td><td>Параметры уравнения </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Проверяемый корень уравнения </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>1 если корень правильный, 0 в противном случае </dd></dl>
+
+</div>
+</div>
+<a id="a7c84d86d1c3f75f8c76e86e316ac94e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c84d86d1c3f75f8c76e86e316ac94e8">&#9670;&nbsp;</a></span>compare_str()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare_str </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Сравнивает строку1 и строку2 </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str1,str2</td><td>строка1 и строка2 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>1 если строка1 &gt; строка2, -1 если строка1 &lt; строка2, 0 если строка1 = строка2 </dd></dl>
+
+</div>
+</div>
+<a id="ae0d929239618e5712a4dfd6ccf3a2ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d929239618e5712a4dfd6ccf3a2ef8">&#9670;&nbsp;</a></span>solveLinear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int solveLinear </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Решает линейные уравнения (частный случай квадратных уравнений) вида ax + b = 0 </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a,b</td><td>Параметры уравнения </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">x</td><td>Корень уравнения </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество корней </dd></dl>
+
+</div>
+</div>
+<a id="a32213261c1ffacc09468324a3aa2f1de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32213261c1ffacc09468324a3aa2f1de">&#9670;&nbsp;</a></span>solveSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int solveSquare </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Решает квадратные уравнения вида ax^2 + bx + c = 0 </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a,b,c</td><td>Параметры уравнения </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">x1,x2</td><td>Корни уравнения </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество корней </dd></dl>
+
+</div>
+</div>
+<a id="a283c116a6d4f7f04bd4a90f109aa5432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a283c116a6d4f7f04bd4a90f109aa5432">&#9670;&nbsp;</a></span>testSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int testSquare </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Проверяет правильность работы функции solveSquare </p><dl class="section note"><dt>Заметки</dt><dd>Для работы требует файл с тестами и ключом </dd>
+<dd>
+Активируется в исходном коде программы </dd>
+<dd>
+Требуются права записи в месте расположения </dd></dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Результат проверки рабты функции solveSquare </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
